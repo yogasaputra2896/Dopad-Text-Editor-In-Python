@@ -1,3 +1,8 @@
+# Dopad Text Editor
+# Version 1.0
+# Doyok Developer
+# https://github.com/yogasaputra2896
+
 import tkinter as tk
 from tkinter.scrolledtext import ScrolledText
 from tkinter import Menu, filedialog, messagebox, simpledialog, colorchooser, END
@@ -18,6 +23,8 @@ app_data_path = os.path.join(app_data_local_path, "dopad")
 config_path = os.path.join(app_data_path, "config")
 temp_path = os.path.join(app_data_path, "temp")
 icon_path = os.path.join(app_path, "icon-dopad.ico")
+
+# Fungsi Membuat Folder
 def make_folder():
     # Membuat Folder config
     if not os.path.exists(config_path):
@@ -25,7 +32,7 @@ def make_folder():
             os.makedirs(config_path)
         except OSError as e:
             messagebox.showerror("Error", "Unable to create the 'config' folder. Please check your access permissions or run as administrator.")
-            window.quit()
+           
 
     # Membuat Folder temp
     if not os.path.exists(temp_path):
@@ -33,7 +40,7 @@ def make_folder():
             os.makedirs(temp_path)
         except OSError as e:
             messagebox.showerror("Error", "Unable to create the 'config' folder. Please check your access permissions or run as administrator.")
-            window.quit()
+            
 # Membuat Fungsi Update Title
 def update_title():
     global current_file
@@ -153,12 +160,13 @@ def exit_app(event=None):
     if textbox_scrol.get("1.0", tk.END).strip():
         respon = messagebox.askyesnocancel("Dopad", "Do you want to save changes before exiting?")
         if respon == True:
-            save_file()
-            window.quit()
-        elif respon == False:
-            window.quit()
+            save_file() 
+            window.quit() 
+        elif respon == False:  
+            window.quit() 
     else:
         window.quit()
+
 
 # Membuat Fungsi Undo
 def undo(event=None):
@@ -469,7 +477,7 @@ def show_window():
     window.bind('<Control-Key-2>', mode_dark)
     window.bind('<Control-Key-d>', insert_time_date)
     textbox_scrol.bind("<Button-1>", clear_highlight)
-    window.bind('<Alt-F4>', exit_app)
+    window.protocol("WM_DELETE_WINDOW", exit_app)
 
     #Menjalankan Fungsi Open Dari File Dopad
     open_file_from_args()
