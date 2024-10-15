@@ -1,1 +1,1 @@
-# Dopad-Text-Editor-In-Pyhton
+# Dopad-Text-Editor-In-Python
