@@ -47,6 +47,7 @@ Dalam pengembangan Dopad Text Editor, saya belajar menggunakan beberapa library 
 
 # Download
 - File zip :
+  <a href="https://drive.google.com/file/d/1gmY0uZvWis6QDhOMW5ZKso4BX4bMGzeC/view?usp=sharing" target="_blank">Dopad 1.0.zip</a>
 
 - Installer:
   <a href="https://drive.google.com/file/d/15315jWqVPyEbeWqHHWR9hjMUoeHr-iRO/view?usp=drive_link" target="_blank">Dopad 1.0 Setup.exe</a>
