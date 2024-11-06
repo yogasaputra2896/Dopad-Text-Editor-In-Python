@@ -4,12 +4,12 @@
     <img src="https://github.com/user-attachments/assets/4759b48d-1de4-416c-8212-da01dd165841" alt="icon dopad 2" width="300"/>
 </div>
 <br>
-Dopad Text Editor adalah Text Editor versi GUI yang sangat mirip dengan Notepad. Proyek ini adalah proyek sederhana yang saya buat untuk meningkatkan keterampilan dalam bahasa pemrograman Python.
-Dalam pengembangan Dopad Text Editor, saya belajar menggunakan beberapa library Python, seperti library tkinter, datetime, os, win32api, subprocess dan sys. Editor ini mendukung berbagai fungsi pengeditan teks, seperti membuka, menyimpan, mengganti teks, mengubah ukuran dan warna font, hingga mencetak dokumen. Fitur lainnya termasuk dukungan untuk mode light dan dark serta fungsi undo/redo.
+Dopad Text Editor adalah Text Editor versi GUI yang sangat mirip dengan Notepad di windows. Proyek ini adalah proyek sederhana yang saya buat untuk meningkatkan keterampilan dalam bahasa pemrograman Python dan untuk memperbanyak portofolio saya.
+Dalam pengembangan Dopad Text Editor, saya belajar menggunakan beberapa library Python, seperti library tkinter, datetime, os, win32api, subprocess dan sys. Editor ini mendukung berbagai fungsi pengeditan teks, seperti membuka, menyimpan, mengganti teks, mengubah ukuran dan warna font, hingga mencetak dokumen. Fitur lainnya termasuk mode light dan dark serta fungsi undo/redo.
 
 # Fitur Utama:
-- Membuat file baru, membuka, dan menyimpan file dengan ekstensi .dopad dan .txt
-- Dukungan untuk undo, redo, cut, copy, paste, dan delete.
+- Membuat file baru, membuka, dan menyimpan file dengan ekstensi .dopad dan .txt dll
+- Bisa melakukan undo, redo, cut, copy, paste, dan delete.
 - Pencarian teks dengan highlight, serta fitur replace teks.
 - Pengaturan tampilan teks seperti mengubah ukuran font, warna font, dan warna latar belakang.
 - Mode tampilan gelap dan terang.
